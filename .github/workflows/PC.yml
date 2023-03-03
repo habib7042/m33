@@ -1,4 +1,4 @@
- name: CI
+name: CI
 
 on: [push, workflow_dispatch]
 
@@ -39,4 +39,3 @@ jobs:
     - name: Create Tunnel
 
       run: .\ngrok\ngrok.exe tcp 3389
-
